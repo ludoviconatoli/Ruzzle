@@ -1,0 +1,26 @@
+Problema (input):
+	Stringa da riconoscere 'parola'
+	Contenuto della Board
+	Posizione della lettera iniziale
+
+Soluzione parziale:
+	la parte iniziale della parola, quella già riconosciuta
+	elenco delle posizione in cui si trovano le lettere già riconosciute
+	
+Soluzione totale:
+	parola completamente riconosciuta
+	elenco delle posizione in cui si trovano le lettere della parola riconosciuta
+
+Livello ricorsione: n° di caratteri già riconosciuti
+
+Condizioni di terminazione:
+ 	livello = lunghezza della parola da riconoscere
+ 	se si trova la soluzione -> interrompere subito la ricerca
+
+Avvio della ricorsione:
+	livello = 1; partiamo da una posizione in cui può iniziare una parola
+	
+Strutture dati che ci servono:
+	Stringa
+	Livello = int
+	List<Pos> 'percorso' corrispondente alla sequenza di caselle
