@@ -8,6 +8,7 @@ import javafx.beans.property.SimpleStringProperty;
 import javafx.beans.property.StringProperty;
 
 public class Model {
+	
 	private final int SIZE = 4;
 	private Board board ;
 	private List<String> dizionario ;
